@@ -9,11 +9,17 @@
     */
 
     //ENTRADA
+    let carrosSUV = ["Tiggo", "Sportage", "Tucson", "EcoSport"];
 
+    const retirar = prompt(`Informe qual carro você deseja retirar desta lista: \n-${carrosSUV.join("\n-")}`);
 
-    //PROCESSAMENTO
+    //PROCESSAMENTO 
+    const posicao = carrosSUV.indexOf(carro);
 
+    if(posicao >= 0){
+        
+    }
 
     //SAÍDA
-
+    document.write(`Sua lista original é: ${carrosSUV.join(", ")}. <br> Sua lista atual é: ${remove.join(", ")}.`)
 </script>
